@@ -4,10 +4,40 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Car Insurance Registration Form</title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post">
+		<Label for="name">Name</Label>
+		<input type="text" id="name" required>
+		<br><br>
+		<Label for="email">Email</Label>
+		<input type="email" id="email" required>
+		<br><br>
+		<Label>Gender</Label>
+		<input type="radio" name="gender" required>Male
+		<input type="radio" name="gender" required>Female
+		<br><br>
+		<Label for="cars">Car Brands</Label>
+		<select id="cars">
+			<option value="BMW">BMW</option>
+			<option value="Audi">Audi</option>
+			<option value="Mercedez">Mercedez</option>
+		</select>
+		<br><br>
+		<Label for="carage">Car Age</Label>
+		<input type="number" id="carage" required>
+		<br><br>
+		<Label for="dop">Date of Purchase (dop)</Label>
+		<input type="date" id="dop" required>
+		<br><br>
+		<Label for="password">Password</Label>
+		<input type="password" id="password" required>
+		<br><br>
+		<button type="submit">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
